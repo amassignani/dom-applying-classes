@@ -8,6 +8,7 @@ function start () {
   one()
   two()
   three()
+  makeVisible()
 
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -32,4 +33,9 @@ function three () {
   three.classList.add('pink');
 }
 
-// CREATE FUNCTION makeVisible HERE
+// I dont know what I am doing wrong...please advice:
+function makeVisible () {
+  var makeVisible = document.getElementsByClassName()'makeVisible')
+  makeVisible.classList.add('visible');
+
+}

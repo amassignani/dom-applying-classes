@@ -35,7 +35,7 @@ function three () {
 
 // I dont know what I am doing wrong...please advice:
 function makeVisible () {
-  var makeVisible = document.getElementsByClassName()'makeVisible')
-  makeVisible.classList.add('visible');
+  var makeVisible = document.getElementsByClassName[0]('makeVisible')
+  makeVisible.classList.add('invisible');
 
 }
